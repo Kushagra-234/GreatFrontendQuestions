@@ -1,0 +1,9 @@
+useEffect after paint chalta hai 
+useLayoutEffect after dom update but before paint,synchronous hota hai 
+useLayoutEffect ko use krne se performance impact hota hai 
+useLayoutEffect ko use krne se dom update nahi hota hai 
+useLayoutEffect block kr deta hai ?? aisa hai kya 
+DOM update -> paint 
+useInsertionEffect - Specifically designed for injecting styles incline css styling engine ko embbed krta hai 
+
+

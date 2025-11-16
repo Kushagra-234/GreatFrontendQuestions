@@ -1,0 +1,1 @@
+tab rerender trigger hota hai jab state ya prop change hua ho 

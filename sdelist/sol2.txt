@@ -1,0 +1,1 @@
+concurrent rendring react ka ek aisa phenomeon hai jisse concurrently render ho jaata hai sb kuch , ability to pause interrupt and prioritize rendering work 
