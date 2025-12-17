@@ -1,0 +1,5 @@
+Event loop kaise kaam karta hai? Microtask vs macrotask?
+
+
+event loop is a pehenoemon which decides what should be pushed in call stack when it is empty.as js is single threaded language so it handles asynchronous tasks ina a different way
+microtask queue and macrotask queue are used to handle asynchronous tasks,microtask queue is used for promises and macrotask queue is used for web APIs and events , microtask has higher priority than macrotask

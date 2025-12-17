@@ -1,0 +1,16 @@
+createRoot is the function in React 18+ used to create a top-level entry point for rendering React components into a browser's Document Object Model (DOM). It replaces the older, deprecated ReactDOM.render method to enable new features like concurrent rendering. 
+Usage Example
+You typically use createRoot once at the very beginning of your application's lifecycle to attach your main component to a specific HTML element in your index.html file (usually an element with an id of 'root'). 
+javascript
+// index.js or main.jsx
+import { createRoot } from 'react-dom/client';
+import App from './App.js';
+
+// 1. Find the DOM node where your app will be mounted
+const container = document.getElementById('root');
+
+// 2. Create a React root
+const root = createRoot(container);
+
+// 3. Render your main component into the root
+root.render(<App />);
