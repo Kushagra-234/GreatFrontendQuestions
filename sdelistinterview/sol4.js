@@ -1,0 +1,3 @@
+// JavaScript me saara code execution context ke andar execute hota hai.
+// Sabse pehle Global Execution Context banta hai, aur function call hone par local execution contexts create hote hain jo call stack me push hote hain.
+// Har execution context ke do phases hote hain — memory creation phase, jisme variables ko memory milti hai aur functions ko unki full definition ke saath store kiya jata hai, aur execution phase jisme code line-by-line execute hota hai.

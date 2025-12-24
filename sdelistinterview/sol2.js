@@ -31,8 +31,14 @@ const PromiseNew = new Promise(function (resolve, reject) {
 });
 
 const UserName = PromiseNew.then((user) => {
-    console.log(user.userName);
+  console.log(user.userName);
   return user;
 }).then((value) => {
   console.log(value.age);
 });
+
+// promise chaining ek aisi process hai jisme ham promises ki chain bnate hai .then se and ye .then fir ek promise retun krta hai and ek ka output dusre ke liye as a input param kaam krta hai as a callback
+
+// Async/await is syntactic sugar over promises; await splits the function into promise chains and schedules the continuation as a microtask.ˀ
+
+// An async function always returns a promise; returned values resolve the promise, and thrown errors reject it.
