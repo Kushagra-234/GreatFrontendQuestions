@@ -1,0 +1,1 @@
+// JS me Garbage Collection (GC) ka kaam hota hai unused memory ko automatically free karna, taaki memory leak na ho. Developer ko manually free() type ka kuch nahi karna padta.

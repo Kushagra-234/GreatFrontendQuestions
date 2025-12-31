@@ -1,0 +1,1 @@
+// Tail Call Optimization (TCO) ek engine-level optimization hoti hai jisme tail position me ki gayi function call new stack frame create nahi karti, balki current stack frame reuse ho jaata hai.
