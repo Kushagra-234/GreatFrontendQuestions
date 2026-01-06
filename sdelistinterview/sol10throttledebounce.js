@@ -58,3 +58,30 @@ function debounce(fn, delay) {
 function debounce() {
   let timerId;
 }
+
+function debounce(fn, delay) {
+  let timerid;
+
+  return function (...args) {
+    clearTimeout(timerid);
+
+    timerid = setTimeout(() => {
+      fn.apply(this, args);
+    }, delay);
+  };
+}
+
+function throttlnew(fn, delay) {
+  let isthrottle = false;
+
+  return function (...args) {
+    if (!isthrottle) {
+      isthrottle = true;
+      fn.apply(this, args);
+
+      setTimeout(()=>{
+        isthrottle=false
+      },delay)
+    }
+  };
+}
