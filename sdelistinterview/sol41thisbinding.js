@@ -1,0 +1,1 @@
+// Arrow functions do not bind this to the object. They inherit this from the lexical scope in which they are defined, and object literals do not create a lexical scope.
