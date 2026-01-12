@@ -17,3 +17,23 @@
 // jyadatar relative parents and absolute children use karte hain.
 // apni jagah pe rhta hai pr right left se upar neeche hota and absolute me wo nearest relative parent ke hissab se mpve hota hai aisa hai na  ]
 // Flexbox is one-dimensional layout system, Grid is two-dimensional layout system.
+
+// CSS box model consists of content, padding, border, and margin.
+// 🔹 Padding
+
+// Content aur border ke beech ka space
+// Inside spacing
+
+// padding: 10px;
+
+// 🔹 Border
+
+// Padding aur margin ke beech line
+
+// 🔹 Margin
+
+// Element ke bahar ka space
+// Outside spacing
+// content,padding,border,margin 
+
+// react fibre new way to include prioritization and pausiable in react 

@@ -30,4 +30,4 @@ function thrittle(fn, delay) {
 }
 
 
-Array.prototype.myMap = function
+// Array.prototype.myMap = function
