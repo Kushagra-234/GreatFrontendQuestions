@@ -8,3 +8,5 @@
 
 // When a function is called with the new keyword, this is bound to the newly created object.
 // Explicit binding is when we manually set the value of this using call, apply, or bind.
+
+// default implicit,explicit,new 

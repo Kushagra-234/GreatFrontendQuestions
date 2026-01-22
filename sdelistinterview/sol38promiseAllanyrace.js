@@ -29,5 +29,10 @@ function thrittle(fn, delay) {
   };
 }
 
-
 // Array.prototype.myMap = function
+
+// promise.all me sab resolve to reoslve ek bhi rejct to reject
+// promise.race me race hoti hai pehle rject ho ya resolve wo hi aajaega 
+// promise.allsettled me sab resolve  hote hi  hai reject koi nhi hota 
+// promise.any me reoslve hua wo aaega reject ignore
+
