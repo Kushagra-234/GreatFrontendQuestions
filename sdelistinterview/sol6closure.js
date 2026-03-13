@@ -15,3 +15,32 @@ const ArrowUp = () => {
 const val = ArrowUp();
 
 val();
+
+const handleCLick = useCallback(() => {
+  console.log("hello");
+}, []);
+
+// 1:25 se 2:25 tk machine coding revise
+
+function removeDuplicate(arr) {
+  let map = {};
+  let result = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (!map[arr[i]]) {
+      map[arr[i]] = true;
+      result.push(arr[i]);
+    }
+  }
+
+  return result;
+
+
+
+}
+
+str.split("").reverse().join("")
+
+
+
+

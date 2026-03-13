@@ -21,7 +21,6 @@ console.log(Obj1);
 // const obj4 = { ...Obj1 };
 // const obj5 = Object.assign({}, Obj1);
 
-
 const original = { a: 1, b: { c: 2 } };
 
 // Option 1: structuredClone (preferred if available)
@@ -35,3 +34,23 @@ deepCopy1.b.c = 300;
 console.log(original.b.c); // 2
 console.log(deepCopy1.b.c); // 300
 
+const newProm = new Promise((resolve, reject) => {
+  resolve("hello");
+});
+
+newProm.then((res) => {
+  console.log(res);
+});
+
+async function getData() {
+  const data = await callFetch();
+}
+
+
+
+// causes of meory leaks in js 
+
+// not cleared timers
+// not cleared useEffects 
+// closure holding variables
+// unremoved event listenres 
